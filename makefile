@@ -6,7 +6,7 @@ default: all
 all: cube
 
 cube: cube.c
-	$(CC) -o cube cube.c
+	$(CC) -o cube cube.c -lm
 	touch mouse.txt
 
 clean:
