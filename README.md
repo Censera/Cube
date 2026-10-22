@@ -1,5 +1,5 @@
 # Cube
-A quick spinning cube project. Runs raw in the terminal with no real C libraries like curses. Takes keyboard input using putchar(). Takes a simple spinning cube and adds a ton of features, including zooming, terminal resizing, and mouse and keyboard control. It also uses a small Python script to get your mouse position for mouse control but is otherwise all written in C. It Probably only works on Mac.
+A quick spinning cube project. Runs raw in the terminal with no real C libraries like curses. Takes keyboard input using putchar(). Takes a simple spinning cube and adds a ton of features, including zooming, terminal resizing, and mouse and keyboard control. It also uses a small Python script to get your mouse position for mouse control but is otherwise all written in C. It Probably only works on Mac and Linux.
 
 Built off of this spinning C cube: [https://github.com/servetgulnaroglu/cube.c](https://github.com/servetgulnaroglu/cube.c)
 
