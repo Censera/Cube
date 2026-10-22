@@ -6,7 +6,8 @@
 #include <termios.h>
 #include <sys/ioctl.h>
 #include <signal.h>
-
+#include <sys/types.h>
+#include <sys/wait.h>
 
 float A, B, C;
 float x, y, z;
@@ -30,6 +31,7 @@ int end = 0;
 int xres = 1440;
 int yres = 900;
 
+pid_t waitpid(pid_t pid, int *status, int options);
 
 float calculateX(int i, int j, int k) {
   return j * sin(A) * sin(B) * cos(C) - k * cos(A) * sin(B) * cos(C) +
